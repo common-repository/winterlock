@@ -1,0 +1,1109 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: WinterLock - Activity Log\n"
+"Language: hr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-29 16:34+0000\n"
+"PO-Revision-Date: 2020-03-29 17:32+0000\n"
+"Last-Translator: admin <sandi@winter.hr>\n"
+"Language-Team: Hrvatski\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2;\n"
+"X-Loco-Version: 2.3.1; wp-5.1.3"
+
+#: admin/class-winter-activity-log-admin.php:248
+#: admin/class-winter-activity-log-admin.php:339
+msgid "Winter Activity Log Settings"
+msgstr "Winter Activity Log Postavke"
+
+#: admin/class-winter-activity-log-admin.php:248
+msgid "WinterLock"
+msgstr "WinterLock"
+
+#: admin/class-winter-activity-log-admin.php:255
+#: admin/class-winter-activity-log-admin.php:256
+msgid "Activity Log"
+msgstr "Dnevnik aktivnosti"
+
+#: admin/class-winter-activity-log-admin.php:260
+#: admin/class-winter-activity-log-admin.php:261
+msgid "Favourite logs"
+msgstr "Spremljeni logovi"
+
+#: admin/class-winter-activity-log-admin.php:265
+#: admin/class-winter-activity-log-admin.php:266
+msgid "Disabled logs"
+msgstr "Onemogućeni logovi"
+
+#: admin/class-winter-activity-log-admin.php:270
+#: admin/class-winter-activity-log-admin.php:271
+msgid "Control Security"
+msgstr "Kontrola sigurnosti"
+
+#: admin/class-winter-activity-log-admin.php:275
+#: admin/class-winter-activity-log-admin.php:276
+msgid "Log Alerts"
+msgstr "Upozorenja logova"
+
+#: admin/class-winter-activity-log-admin.php:280
+#: admin/class-winter-activity-log-admin.php:281
+#: application/views/wal_usersessions/index.php:20
+msgid "User sessions"
+msgstr "Korisničke sesije"
+
+#: admin/class-winter-activity-log-admin.php:285
+#: admin/class-winter-activity-log-admin.php:286
+msgid "Reports"
+msgstr "Izvještaji"
+
+#: admin/class-winter-activity-log-admin.php:290
+#: admin/class-winter-activity-log-admin.php:291
+msgid "Cloud Integration"
+msgstr "Cloud integracija"
+
+#: admin/class-winter-activity-log-admin.php:306
+#: application/views/wal_controlsecurity/control_log.php:653
+msgid "This may block your access to website"
+msgstr "To može blokirati vaš pristup web mjestu"
+
+#: admin/class-winter-activity-log-admin.php:307
+#: application/views/wal_controlsecurity/control_log.php:654
+msgid ""
+"Save this link to txt file on your computer, will help you to unblock your "
+"website in such cases:"
+msgstr ""
+"Spremite ovu vezu u txt datoteku na računalu, pomoći će vam da deblokirate "
+"web mjesto u takvim slučajevima:"
+
+#: admin/class-winter-activity-log-admin.php:340
+msgid "Settings "
+msgstr "postavke "
+
+#: admin/class-winter-activity-log-admin.php:348
+msgid "General Section"
+msgstr "Opći odjeljak"
+
+#: admin/class-winter-activity-log-admin.php:349
+msgid "These are general settings"
+msgstr "Ovo su opće postavke"
+
+#: admin/class-winter-activity-log-admin.php:354
+msgid "Logging level"
+msgstr "Razina zapisa"
+
+#: admin/class-winter-activity-log-admin.php:355
+msgid "These are Logging level settings"
+msgstr "Ovo su postavke razine bilježenja"
+
+#: admin/class-winter-activity-log-admin.php:363
+msgid "Hide IP for logs"
+msgstr "Sakrij IP za logove"
+
+#: admin/class-winter-activity-log-admin.php:364
+msgid "Usualy used for GDPR purposes"
+msgstr "Obično se koristi za potrebe GDPR-a"
+
+#: admin/class-winter-activity-log-admin.php:370
+msgid "Delete logs after"
+msgstr "Izbriši logove nakon"
+
+#: admin/class-winter-activity-log-admin.php:371
+msgid "Days"
+msgstr "dana"
+
+#: admin/class-winter-activity-log-admin.php:377
+msgid "Disable user/ip after 5 failed login attemps for 24h"
+msgstr "Onemogući korisnika / ip nakon 5 neuspjelih pokušaja prijave 24 sata"
+
+#: admin/class-winter-activity-log-admin.php:384
+msgid "Only this admins allowed"
+msgstr "Dopušteni su samo ovi administratori"
+
+#: admin/class-winter-activity-log-admin.php:385
+msgid "Allow only this specific admins to see logs"
+msgstr "Dopusti samo tim određenim administratorima da vide zapisnike"
+
+#: admin/class-winter-activity-log-admin.php:391
+msgid "Allow WinterLock access also to roles"
+msgstr "Omogući WinterLock pristup i ulogama"
+
+#: admin/class-winter-activity-log-admin.php:392
+msgid "Except administrators, also this roles will be able to access"
+msgstr "Osim administratora, i ove će uloge moći pristupiti"
+
+#: admin/class-winter-activity-log-admin.php:398
+msgid "Enable WinterLock Layout in complete dash"
+msgstr "Omogući postavku WinterLock u potpunoj crtici"
+
+#: admin/class-winter-activity-log-admin.php:399
+msgid "enable"
+msgstr "omogućiti"
+
+#: admin/class-winter-activity-log-admin.php:405
+msgid "Disable hints"
+msgstr "Onemogući savjete"
+
+#: admin/class-winter-activity-log-admin.php:406
+msgid "Will hide questions and video guides in dashboard"
+msgstr "Sakrijte pitanja i video vodiče u nadzornoj ploči"
+
+#: admin/class-winter-activity-log-admin.php:579
+msgid "Disable Log our plugin"
+msgstr "Onemogući Logove našeg plugina"
+
+#: admin/class-winter-activity-log-admin.php:580
+msgid "Log our plugin activities"
+msgstr "Spremi logove našeg plugina"
+
+#: admin/class-winter-activity-log-admin.php:587
+msgid "Disable Log WP Cron"
+msgstr "Onemogući WP Cron logove"
+
+#: admin/class-winter-activity-log-admin.php:588
+msgid "Log WordPress Cronjob activities"
+msgstr "Logirajte WordPress Cronjob aktivnosti"
+
+#: admin/class-winter-activity-log-admin.php:595
+msgid "Disable Log Level 1"
+msgstr "Onemogući razinu logiranja 1"
+
+#: admin/class-winter-activity-log-admin.php:596
+#: application/views/wal_cloudintegration/cloud_edit.php:148
+#: application/views/wal_reports/report_edit.php:173
+msgid "Most basic activities log, like when someone open some page"
+msgstr ""
+"Logiranje najosnovnijih aktivnosti, primjerice kada netko otvori neku "
+"stranicu"
+
+#: admin/class-winter-activity-log-admin.php:603
+msgid "Disable Log level 2"
+msgstr "Onemogući razinu logiranja 2"
+
+#: admin/class-winter-activity-log-admin.php:604
+#: application/views/wal_cloudintegration/cloud_edit.php:154
+#: application/views/wal_reports/report_edit.php:179
+msgid ""
+"Something is sent in POST via ajax, sometimes this mean change in database"
+msgstr ""
+"Nešto se šalje u POST-u preko ajaxa, što ponekad znači promjenu u bazi "
+"podataka"
+
+#: admin/class-winter-activity-log-admin.php:610
+msgid "Disable Log level 3"
+msgstr "Onemogući razinu logiranja 3"
+
+#: admin/class-winter-activity-log-admin.php:611
+#: application/views/wal_cloudintegration/cloud_edit.php:160
+#: application/views/wal_reports/report_edit.php:185
+msgid ""
+"Something general is sent in POST to regular page, mostly this mean change "
+"in database"
+msgstr ""
+"Nešto općenito se šalje u POST-u na običnu stranicu, uglavnom to znači "
+"promjenu u bazi podataka"
+
+#: includes/class-winter-activity-log-logger.php:355
+msgid "Email alert for Security rule"
+msgstr "Upozorenje e-poštom zbog pravila sigurnosti"
+
+#: includes/class-winter-activity-log-logger.php:356
+msgid "Hi"
+msgstr "Bok,"
+
+#: includes/class-winter-activity-log-logger.php:357
+msgid "Rule trigered:"
+msgstr "Pravilo pokrenuto:"
+
+#: includes/class-winter-activity-log-logger.php:360
+msgid "Date:"
+msgstr "Datum:"
+
+#: application/controllers/Wal_cloudintegration.php:38
+#: application/controllers/Wal_controlsecurity.php:217
+#: application/controllers/Wal_usersessions.php:275
+#: application/views/wal_cloudintegration/cloud_edit.php:59
+#: application/views/wal_cloudintegration/cloud_edit.php:61
+#: application/views/wal_cloudintegration/index.php:37
+#: application/views/wal_controlsecurity/control_log.php:70
+#: application/views/wal_controlsecurity/control_log.php:71
+#: application/views/wal_controlsecurity/index.php:36
+#: application/views/wal_disabledlogs/index.php:36
+#: application/views/wal_logalerts/index.php:36
+msgid "Title"
+msgstr "Naslov"
+
+#: application/controllers/Wal_cloudintegration.php:43
+#: application/views/wal_cloudintegration/cloud_edit.php:66
+#: application/views/wal_cloudintegration/cloud_edit.php:68
+#: application/views/wal_cloudintegration/index.php:38
+msgid "Component"
+msgstr "Komponenta"
+
+#: application/controllers/Wal_cloudintegration.php:48
+#: application/views/wal_cloudintegration/cloud_edit.php:74
+#: application/views/wal_cloudintegration/cloud_edit.php:76
+#: application/views/wal_cloudintegration/index.php:39
+msgid "Program name"
+msgstr "Naziv programa"
+
+#: application/controllers/Wal_cloudintegration.php:53
+#: application/views/wal_cloudintegration/cloud_edit.php:82
+#: application/views/wal_cloudintegration/cloud_edit.php:84
+msgid "Host"
+msgstr "Server"
+
+#: application/controllers/Wal_cloudintegration.php:58
+#: application/views/wal_cloudintegration/cloud_edit.php:90
+#: application/views/wal_cloudintegration/cloud_edit.php:92
+msgid "Port"
+msgstr "Luka"
+
+#: application/controllers/Wal_cloudintegration.php:63
+#: application/controllers/Wal_reports.php:58
+#: application/views/wal_cloudintegration/cloud_edit.php:112
+#: application/views/wal_cloudintegration/cloud_edit.php:114
+#: application/views/wal_reports/report_edit.php:126
+#: application/views/wal_reports/report_edit.php:128
+msgid "By user"
+msgstr "Prema korisniku"
+
+#: application/controllers/Wal_cloudintegration.php:68
+#: application/controllers/Wal_reports.php:63
+#: application/views/wal_cloudintegration/cloud_edit.php:123
+#: application/views/wal_cloudintegration/cloud_edit.php:125
+#: application/views/wal_reports/report_edit.php:148
+#: application/views/wal_reports/report_edit.php:150
+msgid "By IP"
+msgstr "Prema IP-u"
+
+#: application/controllers/Wal_cloudintegration.php:73
+#: application/controllers/Wal_reports.php:68
+#: application/views/wal_favouritelogs/index.php:36
+#: application/views/winteractivitylog/index.php:37
+msgid "Level"
+msgstr "nivo"
+
+#: application/controllers/Wal_cloudintegration.php:78
+#: application/controllers/Wal_reports.php:73
+msgid "Request uri"
+msgstr "Zatraži uri"
+
+#: application/controllers/Wal_controlsecurity.php:222
+#: application/controllers/Wal_usersessions.php:280
+#: application/views/wal_controlsecurity/control_log.php:87
+#: application/views/wal_controlsecurity/control_log.php:88
+#: application/views/wal_controlsecurity/index.php:39
+#: application/views/wal_dashwidgets/logs_list.php:158
+#: application/views/wal_disabledlogs/index.php:39
+#: application/views/wal_favouritelogs/index.php:41
+#: application/views/wal_logalerts/index.php:39
+#: application/views/winteractivitylog/edit_log.php:325
+#: application/views/winteractivitylog/edit_log.php:388
+#: application/views/winteractivitylog/index.php:42
+msgid "Description"
+msgstr "Opis"
+
+#: application/controllers/Wal_controlsecurity.php:227
+#: application/controllers/Wal_usersessions.php:285
+#: application/views/wal_controlsecurity/control_log.php:634
+msgid "Email address"
+msgstr "Email adresa"
+
+#: application/controllers/Wal_reports.php:38
+#: application/views/wal_reports/report_edit.php:59
+#: application/views/wal_reports/report_edit.php:61
+msgid "Report name"
+msgstr "Naziv izvještaja"
+
+#: application/controllers/Wal_reports.php:43
+#: application/views/wal_reports/report_edit.php:66
+#: application/views/wal_reports/report_edit.php:68
+msgid "Report email"
+msgstr "Prijavi e-poštu"
+
+#: application/controllers/Wal_reports.php:48
+#: application/views/wal_reports/index.php:39
+#: application/views/wal_reports/report_edit.php:73
+msgid "Scheduling period"
+msgstr "Razdoblje planiranja"
+
+#: application/controllers/Wal_reports.php:53
+#: application/views/wal_reports/index.php:40
+#: application/views/wal_reports/report_edit.php:95
+msgid "Format"
+msgstr "Format"
+
+#: application/controllers/Wal_reports.php:78
+#: application/views/wal_reports/report_edit.php:217
+#: application/views/wal_reports/report_edit.php:224
+msgid "Start date"
+msgstr "Početni datum"
+
+#: application/controllers/Wal_reports.php:83
+#: application/views/wal_reports/report_edit.php:238
+#: application/views/wal_reports/report_edit.php:246
+msgid "End date"
+msgstr "Datum završetka"
+
+#: application/models/Report_m.php:166
+msgid "Report log"
+msgstr "Izvješća logova"
+
+#: application/models/Report_m.php:167
+msgid "Report log attached in file"
+msgstr "Izvješće logova priloženo u datoteci"
+
+#: application/models/Report_m.php:180
+msgid "Mail sent successfuly to"
+msgstr "Mail je uspješno poslan na adresu"
+
+#: application/models/Report_m.php:184
+msgid "Mail sending FAILED"
+msgstr "Slanje pošte nije uspjelo"
+
+#: application/models/Report_m.php:189
+msgid "Mail sending format Method not exists"
+msgstr "Format slanja putem pošte ne postoji"
+
+#. A unique slug/ID
+#: includes/dash-widgets/logs-list.php:28
+msgid "Latest activity logs"
+msgstr "Najnoviji logovi aktivnosti"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:20
+msgid "Add/Edit Cloud details"
+msgstr "Dodavanje / uređivanje Cloud detalja"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:51
+msgid "Cloud details"
+msgstr "Cloud detalji"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:104
+msgid "Logging conditions"
+msgstr "Uvjeti logiranja"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:133
+#: application/views/wal_reports/report_edit.php:158
+msgid "By level"
+msgstr "Po razini"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:166
+#: application/views/wal_reports/report_edit.php:191
+msgid "Editing known contents like post, page or similar"
+msgstr "Uređivanje poznatih sadržaja poput članka, stranice ili slično"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:172
+#: application/views/wal_reports/report_edit.php:197
+msgid "Critical tasks like FAILED login"
+msgstr "Kritični zadaci poput neuspjele prijave"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:182
+#: application/views/wal_cloudintegration/cloud_edit.php:184
+#: application/views/wal_reports/report_edit.php:207
+#: application/views/wal_reports/report_edit.php:209
+msgid "By request uri"
+msgstr "Po uri zahtjevu"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:191
+msgid "Save cloud config"
+msgstr "Spremi Cloud konfiguraciju"
+
+#: application/views/wal_cloudintegration/cloud_edit.php:197
+msgid ""
+"Mod php sockets must be enabled on your server php.ini configuration for "
+"papertrail cloud logging, and you need to check with your hosting provider "
+"if sockets are enabled for your server"
+msgstr ""
+"Mod php sockets mora biti omogućen na vašem serveru u php.ini konfiguraciji "
+"za prijavu u cloud papertrail i morate provjeriti kod svog davatelja "
+"hostinga jesu li za vaš poslužitelj slučajn one blokira vezu"
+
+#: application/views/wal_cloudintegration/index.php:20
+msgid "Manage Cloud integrations"
+msgstr "Upravljanje Cloud integracijama"
+
+#: application/views/wal_cloudintegration/index.php:26
+#: application/views/wal_reports/index.php:26
+#: application/views/wal_usersessions/index.php:25
+msgid "Sessions data"
+msgstr "Podaci o sesijama"
+
+#: application/views/wal_cloudintegration/index.php:60
+#: application/views/wal_controlsecurity/index.php:61
+#: application/views/wal_disabledlogs/index.php:61
+#: application/views/wal_favouritelogs/index.php:65
+#: application/views/wal_favouritelogs/index.php:507
+#: application/views/wal_logalerts/index.php:61
+#: application/views/wal_reports/index.php:62
+#: application/views/wal_usersessions/index.php:63
+#: application/views/winteractivitylog/index.php:26
+msgid "Bulk remove"
+msgstr "Skupno uklanjanje"
+
+#: application/views/wal_cloudintegration/index.php:65
+msgid "Here you can configure cloud loging to Papertrail app"
+msgstr "Ovdje možete konfigurirati Cloud logiranje u aplikaciji Papertrail"
+
+#: application/views/wal_cloudintegration/index.php:70
+msgid "Min. premium package is required for cloud integration"
+msgstr "Min. za Cloud integraciju potreban je premium paket"
+
+#: application/views/wal_cloudintegration/index.php:116
+#: application/views/wal_reports/index.php:113
+msgid "Please select reports to remove"
+msgstr "Odaberite izvještaje za uklanjanje"
+
+#: application/views/wal_cloudintegration/index.php:122
+#: application/views/wal_cloudintegration/index.php:173
+#: application/views/wal_controlsecurity/index.php:117
+#: application/views/wal_controlsecurity/index.php:167
+#: application/views/wal_disabledlogs/index.php:112
+#: application/views/wal_disabledlogs/index.php:162
+#: application/views/wal_favouritelogs/index.php:116
+#: application/views/wal_favouritelogs/index.php:166
+#: application/views/wal_favouritelogs/index.php:537
+#: application/views/wal_favouritelogs/index.php:581
+#: application/views/wal_logalerts/index.php:112
+#: application/views/wal_logalerts/index.php:162
+#: application/views/wal_reports/index.php:119
+#: application/views/wal_reports/index.php:170
+#: application/views/wal_usersessions/index.php:121
+#: application/views/wal_usersessions/index.php:172
+#: application/views/winteractivitylog/index.php:154
+#: application/views/winteractivitylog/index.php:204
+msgid "Are you sure?"
+msgstr "Jesi li siguran?"
+
+#: application/views/wal_cloudintegration/index.php:167
+#: application/views/wal_cloudintegration/index.php:267
+#: application/views/wal_controlsecurity/index.php:161
+#: application/views/wal_controlsecurity/index.php:258
+#: application/views/wal_disabledlogs/index.php:156
+#: application/views/wal_disabledlogs/index.php:253
+#: application/views/wal_favouritelogs/index.php:160
+#: application/views/wal_favouritelogs/index.php:267
+#: application/views/wal_favouritelogs/index.php:638
+#: application/views/wal_logalerts/index.php:156
+#: application/views/wal_logalerts/index.php:253
+#: application/views/wal_reports/index.php:164
+#: application/views/wal_reports/index.php:269
+#: application/views/wal_usersessions/index.php:166
+#: application/views/wal_usersessions/index.php:276
+#: application/views/winteractivitylog/index.php:198
+#: application/views/winteractivitylog/index.php:305
+msgid "Search"
+msgstr "traži"
+
+#: application/views/wal_cloudintegration/index.php:168
+#: application/views/wal_controlsecurity/index.php:162
+#: application/views/wal_disabledlogs/index.php:157
+#: application/views/wal_favouritelogs/index.php:161
+#: application/views/wal_logalerts/index.php:157
+#: application/views/wal_reports/index.php:165
+#: application/views/wal_usersessions/index.php:167
+#: application/views/winteractivitylog/index.php:199
+msgid "Enter here filter tag for any column"
+msgstr "Ovdje unesite oznaku filtra za bilo koji stupac"
+
+#: application/views/wal_cloudintegration/index.php:268
+#: application/views/wal_controlsecurity/index.php:259
+#: application/views/wal_disabledlogs/index.php:254
+#: application/views/wal_favouritelogs/index.php:268
+#: application/views/wal_favouritelogs/index.php:639
+#: application/views/wal_logalerts/index.php:254
+#: application/views/wal_reports/index.php:270
+#: application/views/wal_usersessions/index.php:277
+#: application/views/winteractivitylog/index.php:306
+msgid "Show _MENU_ entries"
+msgstr "Prikaži unose _MENU_"
+
+#: application/views/wal_cloudintegration/index.php:269
+#: application/views/wal_controlsecurity/index.php:260
+#: application/views/wal_disabledlogs/index.php:255
+#: application/views/wal_favouritelogs/index.php:269
+#: application/views/wal_favouritelogs/index.php:640
+#: application/views/wal_logalerts/index.php:255
+#: application/views/wal_reports/index.php:271
+#: application/views/wal_usersessions/index.php:278
+#: application/views/winteractivitylog/index.php:307
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Prikazano 0 do 0 od 0 unosa"
+
+#: application/views/wal_cloudintegration/index.php:270
+#: application/views/wal_controlsecurity/index.php:261
+#: application/views/wal_disabledlogs/index.php:256
+#: application/views/wal_favouritelogs/index.php:270
+#: application/views/wal_favouritelogs/index.php:641
+#: application/views/wal_logalerts/index.php:256
+#: application/views/wal_reports/index.php:272
+#: application/views/wal_usersessions/index.php:279
+#: application/views/winteractivitylog/index.php:308
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Prikazivanje _START_ do _END_ od _TOTAL_ unosa"
+
+#: application/views/wal_cloudintegration/index.php:271
+#: application/views/wal_controlsecurity/index.php:262
+#: application/views/wal_disabledlogs/index.php:257
+#: application/views/wal_favouritelogs/index.php:271
+#: application/views/wal_favouritelogs/index.php:642
+#: application/views/wal_logalerts/index.php:257
+#: application/views/wal_reports/index.php:273
+#: application/views/wal_usersessions/index.php:280
+#: application/views/winteractivitylog/index.php:309
+msgid "No data available in table"
+msgstr "Nema podataka u tablici"
+
+#: application/views/wal_controlsecurity/control_log.php:33
+msgid "Security / Control"
+msgstr "Sigurnost / kontrola"
+
+#: application/views/wal_controlsecurity/control_log.php:54
+msgid "Control description"
+msgstr "Opis kontrole"
+
+#: application/views/wal_controlsecurity/control_log.php:62
+msgid "Hide log"
+msgstr "Sakrij zapisnik"
+
+#: application/views/wal_controlsecurity/control_log.php:66
+msgid "Control log"
+msgstr "Dnevnik upravljanja"
+
+#: application/views/wal_controlsecurity/control_log.php:79
+msgid "Hide log by criteria"
+msgstr "Sakrij zapisnik po kriterijima"
+
+#: application/views/wal_controlsecurity/control_log.php:83
+msgid "Control log by criteria"
+msgstr "Kontrola aktivnosi po kriterijama"
+
+#: application/views/wal_controlsecurity/control_log.php:98
+msgid "If Request meet rules:"
+msgstr "Ako Zahtjev ispunjava pravila:"
+
+#: application/views/wal_controlsecurity/control_log.php:119
+#: application/views/wal_controlsecurity/control_log.php:191
+#: application/views/wal_controlsecurity/control_log.php:247
+#: application/views/wal_controlsecurity/control_log.php:303
+#: application/views/wal_controlsecurity/control_log.php:357
+#: application/views/wal_controlsecurity/control_log.php:421
+#: application/views/wal_controlsecurity/control_log.php:501
+#: application/views/wal_controlsecurity/control_log.php:557
+msgid "Type:"
+msgstr "Tip:"
+
+#: application/views/wal_controlsecurity/control_log.php:131
+#: application/views/wal_controlsecurity/control_log.php:203
+#: application/views/wal_controlsecurity/control_log.php:259
+#: application/views/wal_controlsecurity/control_log.php:315
+#: application/views/wal_controlsecurity/control_log.php:369
+#: application/views/wal_controlsecurity/control_log.php:440
+#: application/views/wal_controlsecurity/control_log.php:520
+#: application/views/wal_controlsecurity/control_log.php:569
+msgid "Parameter:"
+msgstr "Parametar:"
+
+#: application/views/wal_controlsecurity/control_log.php:135
+#: application/views/wal_controlsecurity/control_log.php:207
+#: application/views/wal_controlsecurity/control_log.php:263
+#: application/views/wal_controlsecurity/control_log.php:319
+#: application/views/wal_controlsecurity/control_log.php:373
+#: application/views/wal_controlsecurity/control_log.php:444
+#: application/views/wal_controlsecurity/control_log.php:524
+#: application/views/wal_controlsecurity/control_log.php:573
+msgid "Operator:"
+msgstr "Operater:"
+
+#: application/views/wal_controlsecurity/control_log.php:146
+#: application/views/wal_controlsecurity/control_log.php:218
+#: application/views/wal_controlsecurity/control_log.php:274
+#: application/views/wal_controlsecurity/control_log.php:330
+#: application/views/wal_controlsecurity/control_log.php:384
+#: application/views/wal_controlsecurity/control_log.php:459
+#: application/views/wal_controlsecurity/control_log.php:539
+#: application/views/wal_controlsecurity/control_log.php:584
+msgid "Value:"
+msgstr "Vrijednost:"
+
+#: application/views/wal_controlsecurity/control_log.php:609
+msgid "Then:"
+msgstr "Onda:"
+
+#: application/views/wal_controlsecurity/control_log.php:617
+msgid "Email alert"
+msgstr "Upozorenje e-poštom"
+
+#: application/views/wal_controlsecurity/control_log.php:618
+#: application/views/wal_controlsecurity/control_log.php:646
+msgid "Block access"
+msgstr "Blokiraj pristup"
+
+#: application/views/wal_controlsecurity/control_log.php:619
+msgid "Disable log"
+msgstr "Onemogući logiranje"
+
+#: application/views/wal_controlsecurity/control_log.php:629
+msgid "Enable email alert"
+msgstr "Omogući upozorenje e-poštom"
+
+#: application/views/wal_controlsecurity/control_log.php:635
+#: application/views/wal_reports/index.php:38
+msgid "Email"
+msgstr "E-mail"
+
+#: application/views/wal_controlsecurity/control_log.php:656
+msgid "Or download here"
+msgstr "Ili preuzmite ovdje"
+
+#: application/views/wal_controlsecurity/control_log.php:665
+msgid "Skip/Disable log"
+msgstr "Preskoči / onemogući log"
+
+#: application/views/wal_controlsecurity/control_log.php:674
+msgid "Save control rules"
+msgstr "Spremite kontrolna pravila"
+
+#: application/views/wal_controlsecurity/control_log.php:742
+msgid ""
+"Email sending may not work on some servers, for such cases use SMTP "
+"configuration with plugin like WP Mail SMTP by WPForms"
+msgstr ""
+"Slanje e-pošte možda neće raditi na nekim poslužiteljima, u takvim "
+"slučajevima koristite SMTP konfiguraciju s dodatkom kao što je WP Mail SMTP "
+"by WPForms"
+
+#: application/views/wal_controlsecurity/index.php:20
+msgid "Control/Security rules"
+msgstr "Pravila kontrole / sigurnosti"
+
+#: application/views/wal_controlsecurity/index.php:25
+#: application/views/wal_disabledlogs/index.php:25
+#: application/views/wal_logalerts/index.php:25
+msgid "Rules data"
+msgstr "Podaci o pravilima"
+
+#: application/views/wal_controlsecurity/index.php:37
+#: application/views/wal_dashwidgets/logs_list.php:155
+#: application/views/wal_disabledlogs/index.php:37
+#: application/views/wal_favouritelogs/index.php:37
+#: application/views/wal_logalerts/index.php:37
+#: application/views/winteractivitylog/edit_log.php:327
+#: application/views/winteractivitylog/edit_log.php:390
+#: application/views/winteractivitylog/index.php:38
+msgid "Date"
+msgstr "Datum"
+
+#: application/views/wal_controlsecurity/index.php:49
+#: application/views/wal_disabledlogs/index.php:49
+#: application/views/wal_favouritelogs/index.php:51
+#: application/views/wal_logalerts/index.php:49
+#: application/views/winteractivitylog/index.php:52
+msgid "Filter #"
+msgstr "Filtar #"
+
+#: application/views/wal_controlsecurity/index.php:50
+#: application/views/wal_disabledlogs/index.php:50
+#: application/views/wal_logalerts/index.php:50
+msgid "Filter Title"
+msgstr "Naslov filtra"
+
+#: application/views/wal_controlsecurity/index.php:51
+#: application/views/wal_disabledlogs/index.php:51
+#: application/views/wal_favouritelogs/index.php:53
+#: application/views/wal_logalerts/index.php:51
+#: application/views/winteractivitylog/index.php:54
+msgid "Filter Date"
+msgstr "Datum filtriranja"
+
+#: application/views/wal_controlsecurity/index.php:53
+#: application/views/wal_disabledlogs/index.php:53
+#: application/views/wal_favouritelogs/index.php:57
+#: application/views/wal_logalerts/index.php:53
+#: application/views/winteractivitylog/index.php:58
+msgid "Filter Description"
+msgstr "Opis filtra"
+
+#: application/views/wal_controlsecurity/index.php:66
+msgid "Here you can define what happen on specific request rules"
+msgstr "Ovdje možete definirati što se događa po određenim pravilima zahtjeva"
+
+#: application/views/wal_controlsecurity/index.php:111
+#: application/views/wal_disabledlogs/index.php:106
+#: application/views/wal_favouritelogs/index.php:110
+#: application/views/wal_logalerts/index.php:106
+#: application/views/wal_usersessions/index.php:115
+#: application/views/winteractivitylog/index.php:148
+msgid "Please select listings to remove"
+msgstr "Odaberite popise za uklanjanje"
+
+#: application/views/wal_dashwidgets/logs_list.php:145
+msgid "Logs not found"
+msgstr "Zapisnici nisu pronađeni"
+
+#: application/views/wal_dashwidgets/logs_list.php:156
+#: application/views/wal_favouritelogs/index.php:38
+#: application/views/winteractivitylog/index.php:39
+msgid "Avatar"
+msgstr "Avatar"
+
+#: application/views/wal_dashwidgets/logs_list.php:157
+#: application/views/wal_favouritelogs/index.php:39
+#: application/views/wal_usersessions/index.php:36
+#: application/views/winteractivitylog/index.php:40
+msgid "User"
+msgstr "Korisnik"
+
+#: application/views/wal_dashwidgets/logs_list.php:231
+msgid "Manage logs"
+msgstr "Upravljajte logovima"
+
+#: application/views/wal_dashwidgets/logs_list.php:231
+msgid "View all logs"
+msgstr "Pogledajte sve logove"
+
+#: application/views/wal_dashwidgets/logs_list.php:239
+msgid "Logs features are not available for your account type"
+msgstr "Značajke logiranja nisu dostupne za vrstu vašeg računa"
+
+#: application/views/wal_disabledlogs/index.php:20
+msgid "Log Skip/Disabled rules"
+msgstr "Pravila za preskakanje / onemogućivanje logiranja"
+
+#: application/views/wal_disabledlogs/index.php:66
+msgid "Here you can see only disabled log control rules"
+msgstr "Ovdje možete vidjeti samo onemogućena pravila kontrole logova"
+
+#: application/views/wal_favouritelogs/index.php:20
+msgid "Saved/Favourite logs"
+msgstr "Spremljeni / Omiljeni logovi"
+
+#: application/views/wal_favouritelogs/index.php:25
+msgid "Saved logs data"
+msgstr "Spremljeni podaci logova"
+
+#: application/views/wal_favouritelogs/index.php:40
+#: application/views/wal_usersessions/index.php:40
+#: application/views/winteractivitylog/edit_log.php:326
+#: application/views/winteractivitylog/edit_log.php:389
+#: application/views/winteractivitylog/index.php:41
+msgid "IP"
+msgstr "IP"
+
+#: application/views/wal_favouritelogs/index.php:52
+#: application/views/winteractivitylog/index.php:53
+msgid "Filter Level"
+msgstr "Razina filtra"
+
+#: application/views/wal_favouritelogs/index.php:55
+#: application/views/winteractivitylog/index.php:56
+msgid "Filter User"
+msgstr "Filter Korisnika"
+
+#: application/views/wal_favouritelogs/index.php:56
+#: application/views/winteractivitylog/index.php:57
+msgid "Filter IP"
+msgstr "Filtriraj IP"
+
+#: application/views/wal_favouritelogs/index.php:70
+msgid "Saved logs will not be removed automatically"
+msgstr "Spremljeni logovi neće se automatski ukloniti"
+
+#: application/views/wal_favouritelogs/index.php:426
+msgid "Available listings"
+msgstr "Dostupne stavke"
+
+#: application/views/wal_favouritelogs/index.php:437
+msgid "Picture"
+msgstr "Slika"
+
+#: application/views/wal_favouritelogs/index.php:438
+#: application/views/wal_favouritelogs/index.php:458
+msgid "Address"
+msgstr "Adresa"
+
+#: application/views/wal_favouritelogs/index.php:439
+#: application/views/wal_favouritelogs/index.php:459
+msgid "Listing"
+msgstr "Oglas"
+
+#: application/views/wal_favouritelogs/index.php:442
+#: application/views/wal_favouritelogs/index.php:480
+msgid "Category"
+msgstr "Kategorija"
+
+#: application/views/wal_favouritelogs/index.php:446
+msgid "Edit"
+msgstr "Uredi"
+
+#: application/views/wal_favouritelogs/index.php:447
+msgid "Delete"
+msgstr "Izbrisati"
+
+#: application/views/wal_favouritelogs/index.php:448
+msgid "Selected"
+msgstr "Odabran"
+
+#: application/views/wal_favouritelogs/index.php:531
+msgid "Please select logs to remove"
+msgstr "Odaberite zapisnike koje želite ukloniti"
+
+#: application/views/wal_logalerts/index.php:20
+msgid "Log alerts rules"
+msgstr "Pravila upozorenja za prijavu"
+
+#: application/views/wal_logalerts/index.php:66
+msgid "Here you can see only alert log control rules"
+msgstr "Ovdje možete vidjeti samo pravila upravljanja zapisnicima upozorenja"
+
+#: application/views/wal_reports/index.php:20
+msgid "Manage Reports"
+msgstr "Upravljanje izvješćima"
+
+#: application/views/wal_reports/index.php:37
+msgid "Name"
+msgstr "Ime"
+
+#: application/views/wal_reports/index.php:67
+msgid "Here you can define regular or scheduling reports"
+msgstr "Ovdje možete definirati redovna ili izvješća o zakazivanju"
+
+#: application/views/wal_reports/index.php:72
+msgid "Min. standard package is required for log repors"
+msgstr "Min. za izvještaje dnevnika potreban je standardni paket"
+
+#: application/views/wal_reports/report_edit.php:20
+msgid "Add/Edit report"
+msgstr "Dodavanje / uređivanje izvješća"
+
+#: application/views/wal_reports/report_edit.php:51
+msgid "Report details"
+msgstr "Pojedinosti o izvještaju"
+
+#: application/views/wal_reports/report_edit.php:80
+msgid "Scheduling disabled"
+msgstr "Zakazivanje je onemogućeno"
+
+#: application/views/wal_reports/report_edit.php:81
+msgid "Daily"
+msgstr "Dnevno"
+
+#: application/views/wal_reports/report_edit.php:82
+msgid "7 days"
+msgstr "7 dana"
+
+#: application/views/wal_reports/report_edit.php:83
+msgid "30 days"
+msgstr "30 dana"
+
+#: application/views/wal_reports/report_edit.php:84
+msgid "180 days"
+msgstr "180 dana"
+
+#: application/views/wal_reports/report_edit.php:85
+msgid "365 days"
+msgstr "365 dana"
+
+#: application/views/wal_reports/report_edit.php:101
+msgid "CSV (like excel)"
+msgstr "CSV (kao excel)"
+
+#: application/views/wal_reports/report_edit.php:102
+msgid "HTML"
+msgstr "HTML"
+
+#: application/views/wal_reports/report_edit.php:103
+msgid "JSON"
+msgstr "JSON"
+
+#: application/views/wal_reports/report_edit.php:104
+msgid "XML"
+msgstr "XML"
+
+#: application/views/wal_reports/report_edit.php:118
+msgid "Report conditions"
+msgstr "Uvjeti Izvještaja"
+
+#: application/views/wal_reports/report_edit.php:137
+#: application/views/wal_reports/report_edit.php:139
+msgid "By description"
+msgstr "Po opisu"
+
+#: application/views/wal_reports/report_edit.php:259
+msgid "Save report"
+msgstr "Spremi izvješće"
+
+#: application/views/wal_reports/report_edit.php:262
+msgid "Download report"
+msgstr "Preuzmi izvješće"
+
+#: application/views/wal_reports/report_edit.php:263
+msgid "Send email"
+msgstr "Pošalji e-mail"
+
+#: application/views/wal_reports/report_edit.php:277
+msgid "Before download or sending email you need to save report"
+msgstr "Prije preuzimanja ili slanja e-pošte potrebno je spremiti izvješće"
+
+#: application/views/wal_usersessions/index.php:37
+msgid "Login"
+msgstr "Prijaviti se"
+
+#: application/views/wal_usersessions/index.php:38
+msgid "Expiration"
+msgstr "Ističe"
+
+#: application/views/wal_usersessions/index.php:39
+msgid "Session time"
+msgstr "Vrijeme sesije"
+
+#: application/views/wal_usersessions/index.php:64
+msgid "CSV Export (All)"
+msgstr "Izvoz CSV-a (sve)"
+
+#: application/views/wal_usersessions/index.php:69
+msgid ""
+"Here you can block specific user sessions, all user sessions will be removed"
+msgstr ""
+"Ovdje možete blokirati određene sesije korisnika, sve sesije korisnika bit "
+"će uklonjene"
+
+#: application/views/winteractivitylog/edit_log.php:41
+#: application/views/winteractivitylog/index.php:20
+msgid "Activity log"
+msgstr "Dnevnik aktivnosti"
+
+#: application/views/winteractivitylog/edit_log.php:51
+msgid "Saved data"
+msgstr "Spremljeni podaci"
+
+#: application/views/winteractivitylog/edit_log.php:58
+#: application/views/winteractivitylog/edit_log.php:106
+#: application/views/winteractivitylog/edit_log.php:139
+#: application/views/winteractivitylog/edit_log.php:179
+#: application/views/winteractivitylog/edit_log.php:211
+#: application/views/winteractivitylog/edit_log.php:260
+msgid "Variable name"
+msgstr "Naziv varijable"
+
+#: application/views/winteractivitylog/edit_log.php:58
+#: application/views/winteractivitylog/edit_log.php:106
+#: application/views/winteractivitylog/edit_log.php:139
+#: application/views/winteractivitylog/edit_log.php:179
+#: application/views/winteractivitylog/edit_log.php:211
+#: application/views/winteractivitylog/edit_log.php:260
+msgid "Value"
+msgstr "Vrijednost"
+
+#: application/views/winteractivitylog/edit_log.php:94
+msgid "GET data (Usualy part of address query string)"
+msgstr "GET podatak (uobičajeno dio adrese query stringa)"
+
+#: application/views/winteractivitylog/edit_log.php:115
+#: application/views/winteractivitylog/edit_log.php:156
+#: application/views/winteractivitylog/edit_log.php:188
+#: application/views/winteractivitylog/edit_log.php:220
+#: application/views/winteractivitylog/edit_log.php:269
+#: application/views/winteractivitylog/edit_log.php:358
+#: application/views/winteractivitylog/edit_log.php:421
+msgid "No data"
+msgstr "Nema podataka"
+
+#: application/views/winteractivitylog/edit_log.php:127
+msgid "POST data (Usualy part of form)"
+msgstr "Podaci o POST-u (uobičajeno dio formulara)"
+
+#: application/views/winteractivitylog/edit_log.php:168
+msgid "COOKIE data (Part of user browser)"
+msgstr "Podaci COOKIE (Dio preglednika korisnika)"
+
+#: application/views/winteractivitylog/edit_log.php:200
+msgid "HEADER data (Part of user request)"
+msgstr "Podaci HEADER (Dio zahtjeva korisnika)"
+
+#: application/views/winteractivitylog/edit_log.php:232
+msgid "OTHER data"
+msgstr "OSTALI podaci"
+
+#: application/views/winteractivitylog/edit_log.php:301
+msgid "Track user by ID:"
+msgstr "Pratite korisnika prema ID-u:"
+
+#: application/views/winteractivitylog/edit_log.php:301
+#: application/views/winteractivitylog/edit_log.php:370
+msgid "Last 100 logs"
+msgstr "Zadnjih 100 logova"
+
+#: application/views/winteractivitylog/edit_log.php:370
+msgid "Track user by IP:"
+msgstr "Pratite korisnika prema IP-u:"
+
+#: application/views/winteractivitylog/index.php:25
+msgid "Logged data"
+msgstr "Zabilježeni podaci"
+
+#: application/views/winteractivitylog/index.php:70
+msgid "Live monitoring enable (autorefresh each 10 sec)"
+msgstr ""
+"Omogućavanje praćenja uživo (automatsko osvježavanje svakih 10 sekundi)"
+
+#: application/views/winteractivitylog/index.php:80
+msgid "Min. standard package is required for live monitoring feature"
+msgstr "Min. Za značajku praćenja uživo potreban je standardni paket"
+
+#: application/views/winteractivitylog/index.php:85
+msgid "How to use quick search filtering?"
+msgstr "Kako se koristi brzo filtriranje pretraživanja?"
+
+#: application/views/winteractivitylog/index.php:86
+msgid "How to Live Montor with auto refresh and detect login users?"
+msgstr ""
+"Kako radi prećenje u realnom vremenu s automatskim osvježavanjem i "
+"otkrivanjem korisnika za prijavu?"
+
+#: application/views/winteractivitylog/index.php:87
+msgid "How to check Login History and Block Failed Login Attempts?"
+msgstr ""
+"Kako provjeriti povijest prijava i blokirati neuspjele pokušaje prijave?"
+
+#: application/views/winteractivitylog/index.php:88
+msgid "How to Block IP, Username, some words in title or any other criteria?"
+msgstr ""
+"Kako blokirati IP, korisničko ime, neke riječi iz naslova ili bilo koje "
+"druge kriterije?"
+
+#: application/views/winteractivitylog/index.php:89
+msgid "How to Log Content Editing and check Revisions?"
+msgstr "Kako zabilježiti uređivanje sadržaja i revizije izmjena?"
+
+#: application/views/winteractivitylog/index.php:90
+msgid "How to Detect File Changes?"
+msgstr "Kako otkriti promjene datoteka?"
+
+#. Name of the plugin
+msgid "Activity Log and Security Control WinterLock"
+msgstr "Dnevnik aktivnosti i sigurnosna kontrola WinterLock"
+
+#. Description of the plugin
+msgid ""
+"Most detailed Activity Log with User Tracking, Immediate Logout and Activity "
+"Control based on specific criteria, lock, block, email alert, hide etc."
+msgstr ""
+"Naj detaljniji dnevnik aktivnosti s praćenjem korisnika, neposrednim odjavom "
+"i kontrolom aktivnosti na temelju određenih kriterija, zaključavanje, "
+"blokiranje, upozorenje e-poštom, skrivanje itd."
+
+#. URI of the plugin
+msgid "https://activity-log.com/"
+msgstr "https://activity-log.com/"
+
+#. Author of the plugin
+msgid "SWIT"
+msgstr "Swit"
+
+#. Author URI of the plugin
+msgid "https://swit.hr/"
+msgstr "https://swit.hr/"

@@ -1,0 +1,1076 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"POT-Creation-Date: 2020-03-29 16:34+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/class-winter-activity-log-admin.php:248
+#: admin/class-winter-activity-log-admin.php:339
+msgid "Winter Activity Log Settings"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:248
+msgid "WinterLock"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:255
+#: admin/class-winter-activity-log-admin.php:256
+msgid "Activity Log"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:260
+#: admin/class-winter-activity-log-admin.php:261
+msgid "Favourite logs"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:265
+#: admin/class-winter-activity-log-admin.php:266
+msgid "Disabled logs"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:270
+#: admin/class-winter-activity-log-admin.php:271
+msgid "Control Security"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:275
+#: admin/class-winter-activity-log-admin.php:276
+msgid "Log Alerts"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:280
+#: admin/class-winter-activity-log-admin.php:281
+#: application/views/wal_usersessions/index.php:20
+msgid "User sessions"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:285
+#: admin/class-winter-activity-log-admin.php:286
+msgid "Reports"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:290
+#: admin/class-winter-activity-log-admin.php:291
+msgid "Cloud Integration"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:306
+#: application/views/wal_controlsecurity/control_log.php:653
+msgid "This may block your access to website"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:307
+#: application/views/wal_controlsecurity/control_log.php:654
+msgid ""
+"Save this link to txt file on your computer, will help you to unblock your "
+"website in such cases:"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:340
+msgid "Settings "
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:348
+msgid "General Section"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:349
+msgid "These are general settings"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:354
+msgid "Logging level"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:355
+msgid "These are Logging level settings"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:363
+msgid "Hide IP for logs"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:364
+msgid "Usualy used for GDPR purposes"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:370
+msgid "Delete logs after"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:371
+msgid "Days"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:377
+msgid "Disable user/ip after 5 failed login attemps for 24h"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:384
+msgid "Only this admins allowed"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:385
+msgid "Allow only this specific admins to see logs"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:391
+msgid "Allow WinterLock access also to roles"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:392
+msgid "Except administrators, also this roles will be able to access"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:398
+msgid "Enable WinterLock Layout in complete dash"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:399
+msgid "enable"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:405
+msgid "Disable hints"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:406
+msgid "Will hide questions and video guides in dashboard"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:579
+msgid "Disable Log our plugin"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:580
+msgid "Log our plugin activities"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:587
+msgid "Disable Log WP Cron"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:588
+msgid "Log WordPress Cronjob activities"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:595
+msgid "Disable Log Level 1"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:596
+#: application/views/wal_cloudintegration/cloud_edit.php:148
+#: application/views/wal_reports/report_edit.php:173
+msgid "Most basic activities log, like when someone open some page"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:603
+msgid "Disable Log level 2"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:604
+#: application/views/wal_cloudintegration/cloud_edit.php:154
+#: application/views/wal_reports/report_edit.php:179
+msgid ""
+"Something is sent in POST via ajax, sometimes this mean change in database"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:610
+msgid "Disable Log level 3"
+msgstr ""
+
+#: admin/class-winter-activity-log-admin.php:611
+#: application/views/wal_cloudintegration/cloud_edit.php:160
+#: application/views/wal_reports/report_edit.php:185
+msgid ""
+"Something general is sent in POST to regular page, mostly this mean change "
+"in database"
+msgstr ""
+
+#: includes/class-winter-activity-log-logger.php:355
+msgid "Email alert for Security rule"
+msgstr ""
+
+#: includes/class-winter-activity-log-logger.php:356
+msgid "Hi"
+msgstr ""
+
+#: includes/class-winter-activity-log-logger.php:357
+msgid "Rule trigered:"
+msgstr ""
+
+#: includes/class-winter-activity-log-logger.php:360
+msgid "Date:"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:38
+#: application/controllers/Wal_controlsecurity.php:217
+#: application/controllers/Wal_usersessions.php:275
+#: application/views/wal_cloudintegration/cloud_edit.php:59
+#: application/views/wal_cloudintegration/cloud_edit.php:61
+#: application/views/wal_cloudintegration/index.php:37
+#: application/views/wal_controlsecurity/control_log.php:70
+#: application/views/wal_controlsecurity/control_log.php:71
+#: application/views/wal_controlsecurity/index.php:36
+#: application/views/wal_disabledlogs/index.php:36
+#: application/views/wal_logalerts/index.php:36
+msgid "Title"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:43
+#: application/views/wal_cloudintegration/cloud_edit.php:66
+#: application/views/wal_cloudintegration/cloud_edit.php:68
+#: application/views/wal_cloudintegration/index.php:38
+msgid "Component"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:48
+#: application/views/wal_cloudintegration/cloud_edit.php:74
+#: application/views/wal_cloudintegration/cloud_edit.php:76
+#: application/views/wal_cloudintegration/index.php:39
+msgid "Program name"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:53
+#: application/views/wal_cloudintegration/cloud_edit.php:82
+#: application/views/wal_cloudintegration/cloud_edit.php:84
+msgid "Host"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:58
+#: application/views/wal_cloudintegration/cloud_edit.php:90
+#: application/views/wal_cloudintegration/cloud_edit.php:92
+msgid "Port"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:63
+#: application/controllers/Wal_reports.php:58
+#: application/views/wal_cloudintegration/cloud_edit.php:112
+#: application/views/wal_cloudintegration/cloud_edit.php:114
+#: application/views/wal_reports/report_edit.php:126
+#: application/views/wal_reports/report_edit.php:128
+msgid "By user"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:68
+#: application/controllers/Wal_reports.php:63
+#: application/views/wal_cloudintegration/cloud_edit.php:123
+#: application/views/wal_cloudintegration/cloud_edit.php:125
+#: application/views/wal_reports/report_edit.php:148
+#: application/views/wal_reports/report_edit.php:150
+msgid "By IP"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:73
+#: application/controllers/Wal_reports.php:68
+#: application/views/wal_favouritelogs/index.php:36
+#: application/views/winteractivitylog/index.php:37
+msgid "Level"
+msgstr ""
+
+#: application/controllers/Wal_cloudintegration.php:78
+#: application/controllers/Wal_reports.php:73
+msgid "Request uri"
+msgstr ""
+
+#: application/controllers/Wal_controlsecurity.php:222
+#: application/controllers/Wal_usersessions.php:280
+#: application/views/wal_controlsecurity/control_log.php:87
+#: application/views/wal_controlsecurity/control_log.php:88
+#: application/views/wal_controlsecurity/index.php:39
+#: application/views/wal_dashwidgets/logs_list.php:158
+#: application/views/wal_disabledlogs/index.php:39
+#: application/views/wal_favouritelogs/index.php:41
+#: application/views/wal_logalerts/index.php:39
+#: application/views/winteractivitylog/edit_log.php:325
+#: application/views/winteractivitylog/edit_log.php:388
+#: application/views/winteractivitylog/index.php:42
+msgid "Description"
+msgstr ""
+
+#: application/controllers/Wal_controlsecurity.php:227
+#: application/controllers/Wal_usersessions.php:285
+#: application/views/wal_controlsecurity/control_log.php:634
+msgid "Email address"
+msgstr ""
+
+#: application/controllers/Wal_reports.php:38
+#: application/views/wal_reports/report_edit.php:59
+#: application/views/wal_reports/report_edit.php:61
+msgid "Report name"
+msgstr ""
+
+#: application/controllers/Wal_reports.php:43
+#: application/views/wal_reports/report_edit.php:66
+#: application/views/wal_reports/report_edit.php:68
+msgid "Report email"
+msgstr ""
+
+#: application/controllers/Wal_reports.php:48
+#: application/views/wal_reports/index.php:39
+#: application/views/wal_reports/report_edit.php:73
+msgid "Scheduling period"
+msgstr ""
+
+#: application/controllers/Wal_reports.php:53
+#: application/views/wal_reports/index.php:40
+#: application/views/wal_reports/report_edit.php:95
+msgid "Format"
+msgstr ""
+
+#: application/controllers/Wal_reports.php:78
+#: application/views/wal_reports/report_edit.php:217
+#: application/views/wal_reports/report_edit.php:224
+msgid "Start date"
+msgstr ""
+
+#: application/controllers/Wal_reports.php:83
+#: application/views/wal_reports/report_edit.php:238
+#: application/views/wal_reports/report_edit.php:246
+msgid "End date"
+msgstr ""
+
+#: application/models/Report_m.php:166
+msgid "Report log"
+msgstr ""
+
+#: application/models/Report_m.php:167
+msgid "Report log attached in file"
+msgstr ""
+
+#: application/models/Report_m.php:180
+msgid "Mail sent successfuly to"
+msgstr ""
+
+#: application/models/Report_m.php:184
+msgid "Mail sending FAILED"
+msgstr ""
+
+#: application/models/Report_m.php:189
+msgid "Mail sending format Method not exists"
+msgstr ""
+
+#. A unique slug/ID
+#: includes/dash-widgets/logs-list.php:28
+msgid "Latest activity logs"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:20
+msgid "Add/Edit Cloud details"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:51
+msgid "Cloud details"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:104
+msgid "Logging conditions"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:133
+#: application/views/wal_reports/report_edit.php:158
+msgid "By level"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:166
+#: application/views/wal_reports/report_edit.php:191
+msgid "Editing known contents like post, page or similar"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:172
+#: application/views/wal_reports/report_edit.php:197
+msgid "Critical tasks like FAILED login"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:182
+#: application/views/wal_cloudintegration/cloud_edit.php:184
+#: application/views/wal_reports/report_edit.php:207
+#: application/views/wal_reports/report_edit.php:209
+msgid "By request uri"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:191
+msgid "Save cloud config"
+msgstr ""
+
+#: application/views/wal_cloudintegration/cloud_edit.php:197
+msgid ""
+"Mod php sockets must be enabled on your server php.ini configuration for "
+"papertrail cloud logging, and you need to check with your hosting provider "
+"if sockets are enabled for your server"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:20
+msgid "Manage Cloud integrations"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:26
+#: application/views/wal_reports/index.php:26
+#: application/views/wal_usersessions/index.php:25
+msgid "Sessions data"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:60
+#: application/views/wal_controlsecurity/index.php:61
+#: application/views/wal_disabledlogs/index.php:61
+#: application/views/wal_favouritelogs/index.php:65
+#: application/views/wal_favouritelogs/index.php:507
+#: application/views/wal_logalerts/index.php:61
+#: application/views/wal_reports/index.php:62
+#: application/views/wal_usersessions/index.php:63
+#: application/views/winteractivitylog/index.php:26
+msgid "Bulk remove"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:65
+msgid "Here you can configure cloud loging to Papertrail app"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:70
+msgid "Min. premium package is required for cloud integration"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:116
+#: application/views/wal_reports/index.php:113
+msgid "Please select reports to remove"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:122
+#: application/views/wal_cloudintegration/index.php:173
+#: application/views/wal_controlsecurity/index.php:117
+#: application/views/wal_controlsecurity/index.php:167
+#: application/views/wal_disabledlogs/index.php:112
+#: application/views/wal_disabledlogs/index.php:162
+#: application/views/wal_favouritelogs/index.php:116
+#: application/views/wal_favouritelogs/index.php:166
+#: application/views/wal_favouritelogs/index.php:537
+#: application/views/wal_favouritelogs/index.php:581
+#: application/views/wal_logalerts/index.php:112
+#: application/views/wal_logalerts/index.php:162
+#: application/views/wal_reports/index.php:119
+#: application/views/wal_reports/index.php:170
+#: application/views/wal_usersessions/index.php:121
+#: application/views/wal_usersessions/index.php:172
+#: application/views/winteractivitylog/index.php:154
+#: application/views/winteractivitylog/index.php:204
+msgid "Are you sure?"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:167
+#: application/views/wal_cloudintegration/index.php:267
+#: application/views/wal_controlsecurity/index.php:161
+#: application/views/wal_controlsecurity/index.php:258
+#: application/views/wal_disabledlogs/index.php:156
+#: application/views/wal_disabledlogs/index.php:253
+#: application/views/wal_favouritelogs/index.php:160
+#: application/views/wal_favouritelogs/index.php:267
+#: application/views/wal_favouritelogs/index.php:638
+#: application/views/wal_logalerts/index.php:156
+#: application/views/wal_logalerts/index.php:253
+#: application/views/wal_reports/index.php:164
+#: application/views/wal_reports/index.php:269
+#: application/views/wal_usersessions/index.php:166
+#: application/views/wal_usersessions/index.php:276
+#: application/views/winteractivitylog/index.php:198
+#: application/views/winteractivitylog/index.php:305
+msgid "Search"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:168
+#: application/views/wal_controlsecurity/index.php:162
+#: application/views/wal_disabledlogs/index.php:157
+#: application/views/wal_favouritelogs/index.php:161
+#: application/views/wal_logalerts/index.php:157
+#: application/views/wal_reports/index.php:165
+#: application/views/wal_usersessions/index.php:167
+#: application/views/winteractivitylog/index.php:199
+msgid "Enter here filter tag for any column"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:268
+#: application/views/wal_controlsecurity/index.php:259
+#: application/views/wal_disabledlogs/index.php:254
+#: application/views/wal_favouritelogs/index.php:268
+#: application/views/wal_favouritelogs/index.php:639
+#: application/views/wal_logalerts/index.php:254
+#: application/views/wal_reports/index.php:270
+#: application/views/wal_usersessions/index.php:277
+#: application/views/winteractivitylog/index.php:306
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:269
+#: application/views/wal_controlsecurity/index.php:260
+#: application/views/wal_disabledlogs/index.php:255
+#: application/views/wal_favouritelogs/index.php:269
+#: application/views/wal_favouritelogs/index.php:640
+#: application/views/wal_logalerts/index.php:255
+#: application/views/wal_reports/index.php:271
+#: application/views/wal_usersessions/index.php:278
+#: application/views/winteractivitylog/index.php:307
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:270
+#: application/views/wal_controlsecurity/index.php:261
+#: application/views/wal_disabledlogs/index.php:256
+#: application/views/wal_favouritelogs/index.php:270
+#: application/views/wal_favouritelogs/index.php:641
+#: application/views/wal_logalerts/index.php:256
+#: application/views/wal_reports/index.php:272
+#: application/views/wal_usersessions/index.php:279
+#: application/views/winteractivitylog/index.php:308
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: application/views/wal_cloudintegration/index.php:271
+#: application/views/wal_controlsecurity/index.php:262
+#: application/views/wal_disabledlogs/index.php:257
+#: application/views/wal_favouritelogs/index.php:271
+#: application/views/wal_favouritelogs/index.php:642
+#: application/views/wal_logalerts/index.php:257
+#: application/views/wal_reports/index.php:273
+#: application/views/wal_usersessions/index.php:280
+#: application/views/winteractivitylog/index.php:309
+msgid "No data available in table"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:33
+msgid "Security / Control"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:54
+msgid "Control description"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:62
+msgid "Hide log"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:66
+msgid "Control log"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:79
+msgid "Hide log by criteria"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:83
+msgid "Control log by criteria"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:98
+msgid "If Request meet rules:"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:119
+#: application/views/wal_controlsecurity/control_log.php:191
+#: application/views/wal_controlsecurity/control_log.php:247
+#: application/views/wal_controlsecurity/control_log.php:303
+#: application/views/wal_controlsecurity/control_log.php:357
+#: application/views/wal_controlsecurity/control_log.php:421
+#: application/views/wal_controlsecurity/control_log.php:501
+#: application/views/wal_controlsecurity/control_log.php:557
+msgid "Type:"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:131
+#: application/views/wal_controlsecurity/control_log.php:203
+#: application/views/wal_controlsecurity/control_log.php:259
+#: application/views/wal_controlsecurity/control_log.php:315
+#: application/views/wal_controlsecurity/control_log.php:369
+#: application/views/wal_controlsecurity/control_log.php:440
+#: application/views/wal_controlsecurity/control_log.php:520
+#: application/views/wal_controlsecurity/control_log.php:569
+msgid "Parameter:"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:135
+#: application/views/wal_controlsecurity/control_log.php:207
+#: application/views/wal_controlsecurity/control_log.php:263
+#: application/views/wal_controlsecurity/control_log.php:319
+#: application/views/wal_controlsecurity/control_log.php:373
+#: application/views/wal_controlsecurity/control_log.php:444
+#: application/views/wal_controlsecurity/control_log.php:524
+#: application/views/wal_controlsecurity/control_log.php:573
+msgid "Operator:"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:146
+#: application/views/wal_controlsecurity/control_log.php:218
+#: application/views/wal_controlsecurity/control_log.php:274
+#: application/views/wal_controlsecurity/control_log.php:330
+#: application/views/wal_controlsecurity/control_log.php:384
+#: application/views/wal_controlsecurity/control_log.php:459
+#: application/views/wal_controlsecurity/control_log.php:539
+#: application/views/wal_controlsecurity/control_log.php:584
+msgid "Value:"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:609
+msgid "Then:"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:617
+msgid "Email alert"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:618
+#: application/views/wal_controlsecurity/control_log.php:646
+msgid "Block access"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:619
+msgid "Disable log"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:629
+msgid "Enable email alert"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:635
+#: application/views/wal_reports/index.php:38
+msgid "Email"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:656
+msgid "Or download here"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:665
+msgid "Skip/Disable log"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:674
+msgid "Save control rules"
+msgstr ""
+
+#: application/views/wal_controlsecurity/control_log.php:742
+msgid ""
+"Email sending may not work on some servers, for such cases use SMTP "
+"configuration with plugin like WP Mail SMTP by WPForms"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:20
+msgid "Control/Security rules"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:25
+#: application/views/wal_disabledlogs/index.php:25
+#: application/views/wal_logalerts/index.php:25
+msgid "Rules data"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:37
+#: application/views/wal_dashwidgets/logs_list.php:155
+#: application/views/wal_disabledlogs/index.php:37
+#: application/views/wal_favouritelogs/index.php:37
+#: application/views/wal_logalerts/index.php:37
+#: application/views/winteractivitylog/edit_log.php:327
+#: application/views/winteractivitylog/edit_log.php:390
+#: application/views/winteractivitylog/index.php:38
+msgid "Date"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:49
+#: application/views/wal_disabledlogs/index.php:49
+#: application/views/wal_favouritelogs/index.php:51
+#: application/views/wal_logalerts/index.php:49
+#: application/views/winteractivitylog/index.php:52
+msgid "Filter #"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:50
+#: application/views/wal_disabledlogs/index.php:50
+#: application/views/wal_logalerts/index.php:50
+msgid "Filter Title"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:51
+#: application/views/wal_disabledlogs/index.php:51
+#: application/views/wal_favouritelogs/index.php:53
+#: application/views/wal_logalerts/index.php:51
+#: application/views/winteractivitylog/index.php:54
+msgid "Filter Date"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:53
+#: application/views/wal_disabledlogs/index.php:53
+#: application/views/wal_favouritelogs/index.php:57
+#: application/views/wal_logalerts/index.php:53
+#: application/views/winteractivitylog/index.php:58
+msgid "Filter Description"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:66
+msgid "Here you can define what happen on specific request rules"
+msgstr ""
+
+#: application/views/wal_controlsecurity/index.php:111
+#: application/views/wal_disabledlogs/index.php:106
+#: application/views/wal_favouritelogs/index.php:110
+#: application/views/wal_logalerts/index.php:106
+#: application/views/wal_usersessions/index.php:115
+#: application/views/winteractivitylog/index.php:148
+msgid "Please select listings to remove"
+msgstr ""
+
+#: application/views/wal_dashwidgets/logs_list.php:145
+msgid "Logs not found"
+msgstr ""
+
+#: application/views/wal_dashwidgets/logs_list.php:156
+#: application/views/wal_favouritelogs/index.php:38
+#: application/views/winteractivitylog/index.php:39
+msgid "Avatar"
+msgstr ""
+
+#: application/views/wal_dashwidgets/logs_list.php:157
+#: application/views/wal_favouritelogs/index.php:39
+#: application/views/wal_usersessions/index.php:36
+#: application/views/winteractivitylog/index.php:40
+msgid "User"
+msgstr ""
+
+#: application/views/wal_dashwidgets/logs_list.php:231
+msgid "Manage logs"
+msgstr ""
+
+#: application/views/wal_dashwidgets/logs_list.php:231
+msgid "View all logs"
+msgstr ""
+
+#: application/views/wal_dashwidgets/logs_list.php:239
+msgid "Logs features are not available for your account type"
+msgstr ""
+
+#: application/views/wal_disabledlogs/index.php:20
+msgid "Log Skip/Disabled rules"
+msgstr ""
+
+#: application/views/wal_disabledlogs/index.php:66
+msgid "Here you can see only disabled log control rules"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:20
+msgid "Saved/Favourite logs"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:25
+msgid "Saved logs data"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:40
+#: application/views/wal_usersessions/index.php:40
+#: application/views/winteractivitylog/edit_log.php:326
+#: application/views/winteractivitylog/edit_log.php:389
+#: application/views/winteractivitylog/index.php:41
+msgid "IP"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:52
+#: application/views/winteractivitylog/index.php:53
+msgid "Filter Level"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:55
+#: application/views/winteractivitylog/index.php:56
+msgid "Filter User"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:56
+#: application/views/winteractivitylog/index.php:57
+msgid "Filter IP"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:70
+msgid "Saved logs will not be removed automatically"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:426
+msgid "Available listings"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:437
+msgid "Picture"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:438
+#: application/views/wal_favouritelogs/index.php:458
+msgid "Address"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:439
+#: application/views/wal_favouritelogs/index.php:459
+msgid "Listing"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:442
+#: application/views/wal_favouritelogs/index.php:480
+msgid "Category"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:446
+msgid "Edit"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:447
+msgid "Delete"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:448
+msgid "Selected"
+msgstr ""
+
+#: application/views/wal_favouritelogs/index.php:531
+msgid "Please select logs to remove"
+msgstr ""
+
+#: application/views/wal_logalerts/index.php:20
+msgid "Log alerts rules"
+msgstr ""
+
+#: application/views/wal_logalerts/index.php:66
+msgid "Here you can see only alert log control rules"
+msgstr ""
+
+#: application/views/wal_reports/index.php:20
+msgid "Manage Reports"
+msgstr ""
+
+#: application/views/wal_reports/index.php:37
+msgid "Name"
+msgstr ""
+
+#: application/views/wal_reports/index.php:67
+msgid "Here you can define regular or scheduling reports"
+msgstr ""
+
+#: application/views/wal_reports/index.php:72
+msgid "Min. standard package is required for log repors"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:20
+msgid "Add/Edit report"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:51
+msgid "Report details"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:80
+msgid "Scheduling disabled"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:81
+msgid "Daily"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:82
+msgid "7 days"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:83
+msgid "30 days"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:84
+msgid "180 days"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:85
+msgid "365 days"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:101
+msgid "CSV (like excel)"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:102
+msgid "HTML"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:103
+msgid "JSON"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:104
+msgid "XML"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:118
+msgid "Report conditions"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:137
+#: application/views/wal_reports/report_edit.php:139
+msgid "By description"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:259
+msgid "Save report"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:262
+msgid "Download report"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:263
+msgid "Send email"
+msgstr ""
+
+#: application/views/wal_reports/report_edit.php:277
+msgid "Before download or sending email you need to save report"
+msgstr ""
+
+#: application/views/wal_usersessions/index.php:37
+msgid "Login"
+msgstr ""
+
+#: application/views/wal_usersessions/index.php:38
+msgid "Expiration"
+msgstr ""
+
+#: application/views/wal_usersessions/index.php:39
+msgid "Session time"
+msgstr ""
+
+#: application/views/wal_usersessions/index.php:64
+msgid "CSV Export (All)"
+msgstr ""
+
+#: application/views/wal_usersessions/index.php:69
+msgid ""
+"Here you can block specific user sessions, all user sessions will be removed"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:41
+#: application/views/winteractivitylog/index.php:20
+msgid "Activity log"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:51
+msgid "Saved data"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:58
+#: application/views/winteractivitylog/edit_log.php:106
+#: application/views/winteractivitylog/edit_log.php:139
+#: application/views/winteractivitylog/edit_log.php:179
+#: application/views/winteractivitylog/edit_log.php:211
+#: application/views/winteractivitylog/edit_log.php:260
+msgid "Variable name"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:58
+#: application/views/winteractivitylog/edit_log.php:106
+#: application/views/winteractivitylog/edit_log.php:139
+#: application/views/winteractivitylog/edit_log.php:179
+#: application/views/winteractivitylog/edit_log.php:211
+#: application/views/winteractivitylog/edit_log.php:260
+msgid "Value"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:94
+msgid "GET data (Usualy part of address query string)"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:115
+#: application/views/winteractivitylog/edit_log.php:156
+#: application/views/winteractivitylog/edit_log.php:188
+#: application/views/winteractivitylog/edit_log.php:220
+#: application/views/winteractivitylog/edit_log.php:269
+#: application/views/winteractivitylog/edit_log.php:358
+#: application/views/winteractivitylog/edit_log.php:421
+msgid "No data"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:127
+msgid "POST data (Usualy part of form)"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:168
+msgid "COOKIE data (Part of user browser)"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:200
+msgid "HEADER data (Part of user request)"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:232
+msgid "OTHER data"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:301
+msgid "Track user by ID:"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:301
+#: application/views/winteractivitylog/edit_log.php:370
+msgid "Last 100 logs"
+msgstr ""
+
+#: application/views/winteractivitylog/edit_log.php:370
+msgid "Track user by IP:"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:25
+msgid "Logged data"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:70
+msgid "Live monitoring enable (autorefresh each 10 sec)"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:80
+msgid "Min. standard package is required for live monitoring feature"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:85
+msgid "How to use quick search filtering?"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:86
+msgid "How to Live Montor with auto refresh and detect login users?"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:87
+msgid "How to check Login History and Block Failed Login Attempts?"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:88
+msgid "How to Block IP, Username, some words in title or any other criteria?"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:89
+msgid "How to Log Content Editing and check Revisions?"
+msgstr ""
+
+#: application/views/winteractivitylog/index.php:90
+msgid "How to Detect File Changes?"
+msgstr ""
+
+#. Name of the plugin
+msgid "Activity Log and Security Control WinterLock"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Most detailed Activity Log with User Tracking, Immediate Logout and Activity "
+"Control based on specific criteria, lock, block, email alert, hide etc."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://activity-log.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "SWIT"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://swit.hr/"
+msgstr ""

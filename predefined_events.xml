@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+    <category name="Plugins">
+        <event>
+            <code>1001</code>
+            <links>link1, link2</links>
+            <description>Activate Plugin</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/plugins.php]]></value>
+                </request>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator>
+                    <value><![CDATA[action=activate]]></value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1002</code>
+            <links>link1, link2</links>
+            <description>Deactivate Plugin</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/plugins.php]]></value>
+                </request>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>action</parameter>
+                    <operator>CONTAINS</operator>
+                    <value>deactivate</value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1003</code>
+            <links>link1, link2</links>
+            <description>Install Plugin</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>action</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value>install-plugin</value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1016</code>
+            <links>link1, link2</links>
+            <description>Upload Plugin</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/update.php]]></value>
+                </request>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value>upload-plugin</value>
+                </request>
+            </requests>
+        </event>
+    </category>
+    <category name="Posts">
+        <event>
+            <code>1004</code>
+            <links>link1, link2</links>
+            <description>Add Post</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/post-new.php]]></value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1005</code>
+            <links>link1, link2</links>
+            <description>Change Page/Post</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/post.php]]></value>
+                </request>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>action</parameter>
+                    <operator>CONTAINS</operator>
+                    <value>edit</value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1006</code>
+            <links>link1, link2</links>
+            <description>Delete Post/Page</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[/wp-admin/post.php]]></value>
+                </request>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>action</parameter>
+                    <operator>CONTAINS</operator>
+                    <value>delete</value>
+                </request>
+            </requests>
+        </event>
+    </category>
+    <category name="Pages">
+        <event>
+            <code>1007</code>
+            <links>link1, link2</links>
+            <description>Add Page</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/post-new.php?post_type=page]]></value>
+                </request>
+            </requests>
+        </event>
+    </category>
+    <category name="Comments">
+        <event>
+            <code>1009</code>
+            <links>link1, link2</links>
+            <description>Add Comment</description>
+            <requests>
+                <request>
+                    <type>POST</type>
+                    <parameter>submit</parameter>
+                    <operator>CONTAINS</operator>
+                    <value>Post Comment</value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1010</code>
+            <links>link1, link2</links>
+            <description>Edit Comment</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[/wp-admin/comment.php]]></value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1011</code>
+            <links>link1, link2</links>
+            <description>Delete Comment</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>action</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value>delete-comment</value>
+                </request>
+            </requests>
+        </event>
+    </category>
+    <category name="Settings">
+        <event>
+            <code>1012</code>
+            <links>link1, link2</links>
+            <description>Change Settings</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/options]]></value>
+                </request>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>action</parameter>
+                    <operator>CONTAINS</operator>
+                    <value>update</value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1013</code>
+            <links>link1, link2</links>
+            <description>Change Theme Details</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/themes.php]]></value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1014</code>
+            <links>link1, link2</links>
+            <description>Change Menu Details</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/nav-menus.php]]></value>
+                </request>
+            </requests>
+        </event>
+        <event>
+            <code>1015</code>
+            <links>link1, link2</links>
+            <description>Open Customizer</description>
+            <requests>
+                <request>
+                    <type>GENERAL</type>
+                    <parameter>request_uri</parameter>
+                    <operator>CONTAINS</operator> 
+                    <value><![CDATA[wp-admin/customize.php]]></value>
+                </request>
+            </requests>
+        </event>
+    </category>
+</events>
